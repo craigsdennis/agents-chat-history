@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useAgent } from "agents/react";
+import Footer from './Footer';
 
 import type { ChatMessage } from "../../worker/agents/chat";
 
@@ -307,6 +308,7 @@ export default function ChatPage() {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

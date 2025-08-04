@@ -10,6 +10,10 @@ You requested help creating a front-end for a simple chat application with the f
 - Prepare it for integration with Cloudflare Agents using a `useAgent` hook
 - Make it a simple chat interface where users submit messages, see them displayed, and receive AI responses
 
+**Additional requests:**
+- Update favicon to 📜 emoji and title to "Agents SDK - Responses API History"
+- Add sticky footer with attribution to Cloudflare Agents and OpenAI Responses API
+
 ## What I Accomplished
 
 ### 1. Project Structure Setup
@@ -60,13 +64,28 @@ The chat interface is ready for your Cloudflare Agents integration. You'll need 
 2. Implement your `useAgent` hook 
 3. Connect to the OpenAI responses API as planned
 
+### 7. App Branding
+- **Updated favicon:** Changed from Vite logo to 📜 emoji using inline SVG data URL
+- **Updated page title:** Changed to "Agents SDK - Responses API History" for better app identity
+- **Improved branding:** App now properly reflects its purpose as an Agents SDK demo
+
+### 8. Sticky Footer Component
+- **Created reusable Footer component:** Professional attribution footer for all pages
+- **Attribution text:** "Built with 🧡 using Cloudflare Agents && OpenAI Responses API"
+- **Documentation links:** Direct links to Cloudflare Agents and OpenAI Responses API docs
+- **Code repository link:** "👀 the code" line with placeholder GitHub link
+- **Responsive design:** Clean styling that matches the app's aesthetic
+- **Applied to all pages:** Added to both HomePage and ChatPage with proper layout adjustments
+
 ## Files Created/Modified
 - `src/main.tsx` - Added BrowserRouter
 - `src/App.tsx` - Complete rewrite with routing
 - `src/index.css` - Clean Tailwind setup
-- `src/components/HomePage.tsx` - New landing page
-- `src/components/ChatPage.tsx` - New chat interface
+- `src/components/HomePage.tsx` - New landing page with footer integration
+- `src/components/ChatPage.tsx` - New chat interface with footer integration
+- `src/components/Footer.tsx` - New reusable footer component
 - `package.json` - Added react-router-dom dependency
+- `index.html` - Updated favicon and title
 - `truth-window/` folder - Created for session journaling
 
 ## Build Status
