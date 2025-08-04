@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="text-xs text-gray-500">
           👀{' '}
           <a 
-            href="https://github.com/your-repo" 
+            href="https://github.com/craigsdennis/agents-chat-history" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-gray-900 font-medium transition-colors"
