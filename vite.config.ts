@@ -8,4 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), cloudflare(), tailwindcss()],
+  esbuild: {
+		target: 'es2022',
+	},
 })
